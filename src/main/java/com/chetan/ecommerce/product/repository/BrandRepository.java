@@ -1,0 +1,18 @@
+package com.chetan.ecommerce.product.repository;
+
+import com.chetan.ecommerce.product.entity.Brand;
+import com.chetan.ecommerce.shared.enums.BrandStatus;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+import java.util.Optional;
+
+public interface BrandRepository extends JpaRepository<Brand, Long>
+{
+    List<Brand> findAllByStatus(BrandStatus status);
+    
+    boolean existsByName(String name);
+    
+    Optional<Brand> findByName(String name);
+}
+
