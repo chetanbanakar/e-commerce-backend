@@ -6,7 +6,7 @@ A production-ready, **modular monolithic** e-commerce backend built with **Sprin
 
 ## 👨‍💻 Author
 
-**Chetan Kumar**  
+**Chetan Banakar**  
 **Backend Developer** | Java | Spring Boot | Spring Security
 
 📧 Email: [Your Email]  
